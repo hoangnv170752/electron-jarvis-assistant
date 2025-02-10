@@ -9,8 +9,8 @@ lerna-debug.log*
 
 node_modules
 dist
-dist-ssr
 dist-react
+dist-electron
 *.local
 
 # Editor directories and files
@@ -23,3 +23,8 @@ dist-react
 *.njsproj
 *.sln
 *.sw?
+nextSteps.txt
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

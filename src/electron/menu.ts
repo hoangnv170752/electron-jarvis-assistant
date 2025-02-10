@@ -25,7 +25,7 @@ app.on('ready', () => {
     return getStaticData();
   });
 
-  ipcMainOn('sendFrameAction', (payload: unknown) => {
+  ipcMainOn('sendFrameAction', (payload) => {
     switch (payload) {
       case 'CLOSE':
         mainWindow.close();
